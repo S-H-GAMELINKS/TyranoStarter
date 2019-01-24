@@ -17,7 +17,7 @@ int main(int argc, char* argv[]) {
 
     const std:string& tyrano_path = std::getenv("TYRANO");
 
-    CopyTyrano(argv[1], tyrano);
+    CopyTyrano(argv[1], tyrano_path);
 
     return 0;
 }
