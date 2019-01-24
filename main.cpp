@@ -15,7 +15,7 @@ void CopyTyrano(const fs::path& path, const std::string& tyrano_path, const std:
 
 int main(int argc, char* argv[]) {
 
-    const std:string& tyrano_path = std::getenv("TYRANO");
+    const std::string& tyrano_path = std::getenv("TYRANO");
 
     CopyTyrano(argv[1], tyrano_path);
 
